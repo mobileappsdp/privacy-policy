@@ -10,6 +10,7 @@ Privacy policies for apps published by **mobileapps.dp**.
 ## Apps
 
 - [Tossly](./tossly) — Coin flip, dice roll & random picker
+- [Baby-in-Car](./baby-in-car) — Reminds you a child is still in the car
 
 ## Contact
 
