@@ -31,8 +31,6 @@ visible to us:
 | About your children | Name, birth year, boy/girl, avatar colour, and a photo if you add one |
 | About you | The name you enter for yourself, and the name of an emergency contact (a name only — no phone number or email) |
 | About your car | The Bluetooth name and identifier of the car you pair with |
-| Places | Names and addresses you save, such as home or daycare |
-| Schedules | Titles, days and times you set for school runs and similar trips |
 | Trip history | Start and end times, which children rode along, how many reminders were sent, whether you acknowledged one, and — if you allow location access — the coordinates where each trip started and ended |
 | Settings | Alert loudness, repeat counts, which detection methods are on |
 
@@ -81,9 +79,9 @@ services from Google that collect limited technical information:
 | Advertising identifiers | Advertising ID (Android), IDFA (iOS — only if you allow tracking) | Google AdMob |
 | Coarse advertising signals | Approximate location derived from your IP address, ad interaction events | Google AdMob |
 
-We do not send any custom events describing your children, your trips,
-your places, or your schedules. Analytics reports only the standard app
-lifecycle events listed above.
+We do not send any custom events describing your children, your car, or
+your trips. Analytics reports only the standard app lifecycle events
+listed above.
 
 Note that the approximate location AdMob derives from your IP address is
 separate from, and much coarser than, the GPS coordinates in your trip
@@ -157,10 +155,9 @@ App, removes the data completely, because there is no other copy.
 
 ## 7. Data retention
 
-- **Local data** (children, car, places, schedules, trip history,
-  settings, photos) lives on your device for as long as the App is
-  installed. Deleting a profile removes it immediately; uninstalling the
-  App removes everything.
+- **Local data** (children, car, trip history, settings, photos) lives on
+  your device for as long as the App is installed. Deleting a profile
+  removes it immediately; uninstalling the App removes everything.
 - **Analytics and crash data** is retained by Google according to
   Firebase defaults (typically 2 to 14 months) and then deleted.
 
@@ -173,8 +170,8 @@ rights to access, correct, or delete the data held about you, and to opt
 out of analytics and advertising.
 
 For everything you entered into the App, you can exercise those rights
-directly: edit or delete any child, place, schedule or trip from within
-the App, or uninstall it to remove all of it at once.
+directly: edit or delete a child's details from within the App, or
+uninstall it to remove all of it at once.
 
 For the technical data collected by Firebase and AdMob, we do not collect
 identifiers tied to your identity (no email, no account), so we cannot
